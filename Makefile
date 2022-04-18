@@ -7,9 +7,9 @@ prob01:
 	g++ -std=c++11 $(dir_hw)/$@/main.cpp -o $(dir_hw)/$@/main
 
 prob01_chk: prob01
-	echo 30 | $(dir_hw)/$</main | python $(dir_hw)/$/check.py 30
-	echo 70 | $(dir_hw)/$</main | python $(dir_hw)/$/check.py 70
-	echo 300 | $(dir_hw)/$</main | python $(dir_hw)/$/check.py 300
+	echo 30 | $(dir_hw)/$</main | python $(dir_hw)/$</check.py 30
+	echo 70 | $(dir_hw)/$</main | python $(dir_hw)/$</check.py 70
+	echo 300 | $(dir_hw)/$</main | python $(dir_hw)/$</check.py 300
 
 prob02:
 	g++ -std=c++11 $(dir_hw)/$@/main.cpp -o $(dir_hw)/$@/main
