@@ -1,8 +1,8 @@
-### 輸出 1 ~ n 中所有可以被 3 整除的整數，每一行最多印 3 個數字。
+### 題目說明：輸出 1 ~ n 中所有可以被 2 整除的整數，每一行最多印 4 個數字，每個數字寬度 4 並靠右對齊。
 
 #### 輸出結果：
 
-```shell
+```text
 PS D:\Workspace\cprog-autograding\cprog-week10\src\prob01> echo 16 | .\main.exe
    2   4   6   8
   10  12  14  16

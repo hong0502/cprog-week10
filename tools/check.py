@@ -1,6 +1,5 @@
 import sys
 
-
 def main(msg):
     expected = msg.strip()
     result = ""
