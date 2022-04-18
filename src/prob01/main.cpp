@@ -12,11 +12,11 @@ int main()
 
    for (int i = 1; i <= n; i++)
    {
-      if (i % 3 == 0)
+      if (i % 2 == 0)
       {
          cout << setw(4) << i;
          col++;
-         if (col % 5 == 0)
+         if (col % 4 == 0)
          {
             cout << endl;
             col = 0;
