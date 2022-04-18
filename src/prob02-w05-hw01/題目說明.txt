@@ -1,0 +1,41 @@
+運用我們在作業中所使用的讀取管線(|)資料的技巧，用 cin 讀進由管線導入的整數資料，把數列中不3不4(不可被3及4整除)的資料加總，在資料讀取結束後將總和輸出。
+
+測試資料：
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test1.txt
+      32       2      15       2      48      98      33      53      52      90
+      49      55      80      26      68      33      95      15      65      69
+      48      99      93      37      98      83      19      52      44      11
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test2.txt
+      29      26      37      97      29      59      51      35      98      92
+      55      63      99       4      70      29      79       2      99      63
+      43      18      11      30      83      25      75      76      73      81
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test3.txt
+       5       6       5       1       6       1       2       3       6       2
+       3       6       1       5       1       2       1       1       2       5
+       3       3       4       6       3       5       1       2       1       4
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test4.txt
+       6       5       3       2       6       4       2       2       6       6
+       5       2       2       6       5       2       5       6       5       6
+       3       4       6       6       1       1       5       2       4       1
+
+參考測試結果：
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test1.txt | .\main.exe
+   2   2  98  53  49  55  26  95  65  37  98  83  19  11
+sum of n3n4 # = 693
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test2.txt | .\main.exe
+  29  26  37  97  29  59  35  98  55  70  29  79   2  43  11  83  25  73
+sum of n3n4 # = 880
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test3.txt | .\main.exe
+   5   5   1   1   2   2   1   5   1   2   1   1   2   5   5   1   2   1
+sum of n3n4 # = 43
+
+PS D:cprog-2022s\src\week08\prob02-w05-hw01> type .\test4.txt | .\main.exe
+   5   2   2   2   5   2   2   5   2   5   5   1   1   5   2   1
+sum of n3n4 # = 47
