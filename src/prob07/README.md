@@ -4,8 +4,7 @@
 ```text
 - [ ] 資料格式： <科目數> <成績1> <成績2>  ... <成績n>
 ```
-![南臺科技大學等第成績](./stust.png = 250x)
-![test image size]<img src="./stust.png" width="400">
+![南臺科技大學等第成績]<img src="./stust.png" width="500">
 
 #### 輸出結果：
 
