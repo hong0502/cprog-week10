@@ -2,7 +2,7 @@
 
 #### 輸出結果：
 
-```shell
+```text
 PS D:\Workspace\cprog-autograding\cprog-week10\src\prob01> echo 16 | .\main.exe
    2   4   6   8
   10  12  14  16
