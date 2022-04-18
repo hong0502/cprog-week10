@@ -11,4 +11,25 @@
 #### 輸出結果：
 
 ```text
+PS D:\Workspace\cprog-autograding\cprog-week10\src\prob07> cat .\grade1.txt | .\main.exe
+B-    A
+E     A+
+C+    B+    E
+A
+A+    A     D
+
+PS D:\Workspace\cprog-autograding\cprog-week10\src\prob07> cat .\grade2.txt | .\main.exe
+A     B-    A
+E     A+
+E
+A     A+    B+    C
+A+    D
+
+PS D:\Workspace\cprog-autograding\cprog-week10\src\prob07> cat .\grade3.txt | .\main.exe
+A     
+A+    
+A     B+    C+    D     B+    
+E     D     C     A     
+A+    D     
+A+    D     B+    
 ```

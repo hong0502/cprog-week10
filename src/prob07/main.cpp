@@ -30,33 +30,6 @@ string toLG(int g)
     return "X";
 }
 
-float toGP(int g)
-{
-    if (g >= 90)
-        return 4.3;
-    if (g >= 85)
-        return 4;
-    if (g >= 80)
-        return 3.7;
-    if (g >= 77)
-        return 3.3;
-    if (g >= 73)
-        return 3.0;
-    if (g >= 70)
-        return 2.7;
-    if (g >= 67)
-        return 2.3;
-    if (g >= 63)
-        return 2.0;
-    if (g >= 60)
-        return 1.7;
-    if (g >= 50)
-        return 1.0;
-    if (g >= 1)
-        return 0;
-    return 0;
-}
-
 int main()
 {
     int col;
@@ -71,18 +44,13 @@ int main()
     {
         gpa = 0;
         tc = 0;
-        pad = 20;
         while (col > 0)
         {
             cin >> g;
-            cin >> c;
-            tc += c;
-            gpa += toGP(g) * c;
-            cout << setw(4) << left << toLG(g);
-            pad -= 4;
+            cout << setw(6) << left << toLG(g);
             col--;
         }
-        cout << setw(pad) << right << gpa / tc << endl;
+        cout << endl;
     }
 
     return 0;
