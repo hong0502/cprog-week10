@@ -5,20 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int cnt = 0;
-
-    while (cin >> n)
-    {
-        while (n > 0)
-        {
-            if (n % 10 == 7)
-                cnt++;
-            n /= 10;
-        }
-    }
-
-    cout << cnt << endl;
+    cout << "Hello World!" << endl;
 
     return 0;
 }
